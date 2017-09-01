@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#d33c3c"
+    tools:context="com.example.administrator.helloworld.MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edGoalMoney"
+        android:inputType="number"
+        android:layout_margin="10px"
+        android:hint="请输入你期望的第一桶金的金额"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#2dffe0"
+        android:text="点击一次赚一元"
+        android:id="@+id/btnGetMoney"
+        android:layout_margin="10px"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#c0ef17"
+        android:text="点击一次损失一元"
+        android:id="@+id/btnLostMoney"
+        android:layout_margin="10px"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我通过点击鼠标赚了。。。元"
+        android:id="@+id/tvGetMoney"
+        android:layout_margin="10px"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_gravity="center" />
+
+</LinearLayout>

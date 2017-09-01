@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="给自己的状态评分"
+        android:textSize="30dp" />
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:isIndicator="false"
+        android:stepSize="0.5"
+        android:rating="0"
+        android:layout_gravity="center"
+        android:id="@+id/rtbMyScore"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="中华名族复兴进度"
+        android:layout_gravity="center"
+        android:id="@+id/tvChinaScore"/>
+    <SeekBar
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="65"
+        android:id="@+id/skbChinaScore"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10px"
+        android:text="时间都去哪了"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:layout_gravity="center"/>
+    <ImageButton
+        android:layout_width="200px"
+        android:layout_height="200px" />
+</LinearLayout>
